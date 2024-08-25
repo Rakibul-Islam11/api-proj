@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>ReTro Forum</title>
+        <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+            integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+            crossorigin="anonymous" referrerpolicy="no-referrer" />
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/fontawesome.min.css"
+                integrity="sha512-B46MVOJpI6RBsdcU307elYeStF2JKT87SsHZfRSkjVi4/iZ3912zXi45X5/CBr/GbCyLx6M1GQtTKYRd52Jxgw=="
+                crossorigin="anonymous" referrerpolicy="no-referrer" />
+        
+
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+        <header>
+            <nav class="navbar">
+                <div class="logo">ReTro</div>
+                <ul class="nav-icons">
+                    <li><a href="#"><img src="home-icon.png" alt="Home"></a></li>
+                    <li><a href="#"><img src="edit-icon.png" alt="Edit"></a></li>
+                    <li><a href="#"><img src="flag-icon.png" alt="Flag"></a></li>
+                </ul>
+                <button class="sign-in-btn">Sign In</button>
+            </nav>
+        </header>
+
+        <section class="welcome-section">
+            <div class="welcome-text">
+                <h1>Welcome to the <span>ReTro</span> Forum</h1>
+                <p>Share your favorite opinion and win and WP forum coffee mug!</p>
+                <div class="search-bar">
+                    <input id="searINPT" type="text" placeholder="Search here anything">
+                    <button id="Btn">Search</button>
+                </div>
+            </div>
+            <div class="forum-stats">
+                <p>Registered Users <span>01</span></p>
+                <p>Forum <span>05</span></p>
+                <p>Topics <span>01</span></p>
+                <p>Replies <span>01</span></p>
+            </div>
+        </section>
+        <section class="lets_discus_text">
+            <h1>LETS DUSCUSS</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci, quo nihil! Velit, perferendis molestiae enim nulla, eligendi ad nemo unde ullam, quasi incidunt saepe a vel numquam magnam excepturi? Accusantium.</p>
+        </section>
+        <section class="discuss_main_section">
+            <div class="discuss_devider">
+                <div class="discuss p-6 rounded-xl " id="forCreateEL">
+                    <!--create from js-->
+                    
+                </div>
+
+                <div id="hdorsh" class="read_main rounded-xl hidden">
+                    <div class="read p-6 flex justify-between">
+                        <span>title</span>
+                        <div class="read_icon_wrap flex flex-column gap-3">
+                            <p>mark as read</p>
+                            <span id="cont"></span>
+                        </div>
+                    
+                    </div>
+                    <div id="forCreateELtwo" >
+                        <!--have to craete from js-->
+                        
+                    </div>
+                </div>
+            </div>
+        </section>
+        <br><br><br>
+        <script src="https://cdn.tailwindcss.com"></script>
+        <script src="scripr.js"></script>
+    </body>
+
+</html>

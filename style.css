@@ -1,0 +1,147 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f8f9fa;
+    color: #333;
+}
+
+header {
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 1.8em;
+    font-weight: bold;
+    color: #333;
+}
+
+.nav-icons {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-icons li a img {
+    width: 24px;
+    height: 24px;
+}
+
+.sign-in-btn {
+    background-color: #5A67D8;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+}
+
+.welcome-section {
+    background: linear-gradient(180deg, #1A202C 0%, #2D3748 100%);
+    color: #fff;
+    padding: 60px 20px;
+    border-radius: 10px;
+    margin: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.welcome-text h1 {
+    font-size: 2.5em;
+}
+
+.welcome-text h1 span {
+    color: #5A67D8;
+}
+
+.welcome-text p {
+    margin-top: 10px;
+    font-size: 1.1em;
+}
+
+.search-bar {
+    margin-top: 20px;
+    display: flex;
+}
+
+.search-bar input {
+    padding: 10px;
+    width: 300px;
+    border: none;
+    border-radius: 20px 0 0 20px;
+}
+
+.search-bar button {
+    padding: 10px 20px;
+    background-color: #5A67D8;
+    color: #fff;
+    border: none;
+    border-radius: 0 20px 20px 0;
+    cursor: pointer;
+    font-size: 1em;
+}
+
+.forum-stats {
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    border-radius: 10px;
+    font-size: 1.2em;
+}
+
+.forum-stats p {
+    margin: 10px 0;
+    font-size: 1.1em;
+}
+
+.forum-stats p span {
+    float: right;
+    font-weight: bold;
+}
+
+.lets_discus_text {
+    width: 50%;
+    margin: auto;
+}
+.discuss_main_section {
+    width: 80%;
+    margin: auto;
+}
+.discuss_devider {
+    display: flex;
+    gap: 20px;
+
+}
+.discuss {
+    width: 70%;
+    /* background-color: grey; */
+    
+}
+.read_main {
+    width: 30%;
+    background-color: grey;
+    
+}
+.wrp {
+    width: 20%;
+    display: flex;
+    flex-direction: row;
+   
+}
+.read_and_icon {
+    display: flex;
+    justify-content: space-between;
+}
+.read_in {
+    width: 60%;
+}
